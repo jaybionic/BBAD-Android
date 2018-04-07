@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlNormal">#FFF</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">20dp</item>
+
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+    </style>
+
+    <style name="CustomButton">
+        <item name="android:background">#eaeded</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">#002f36</item>
+    </style>
+
+
+    <style name="SpinnerItem">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">#008577</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <style name="SpinnerDropDownItem">
+        <item name="android:textColor">#FFF   </item>
+        <item name="android:background">#008577</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+
+
+</resources>
