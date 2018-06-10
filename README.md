@@ -1,7 +1,7 @@
 # BBAD-Android
 
 ## Gradle
-'implementation: 'com.github.jaybionic:bbad:2.0.0'
+`implementation: 'com.github.jaybionic:bbad:2.0.0`
 
 
 [BBAD UWP/C# version](https://github.com/jaybionic/BBAD-UWP)
