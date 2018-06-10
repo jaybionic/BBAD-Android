@@ -1,4 +1,4 @@
-package com.jaycorp.bbad;
+package com.jaybionic.bbad;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

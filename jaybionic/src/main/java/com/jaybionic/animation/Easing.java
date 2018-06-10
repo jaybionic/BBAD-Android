@@ -1,4 +1,4 @@
-package com.jaycorp.animation;
+package com.jaybionic.animation;
 
 import android.support.v4.view.animation.PathInterpolatorCompat;
 import android.view.animation.Interpolator;

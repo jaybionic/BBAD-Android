@@ -1,4 +1,4 @@
-package com.jaycorp;
+package com.jaybionic;
 
 import org.junit.Test;
 

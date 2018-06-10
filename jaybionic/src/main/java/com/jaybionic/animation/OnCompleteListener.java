@@ -1,4 +1,4 @@
-package com.jaycorp.animation;
+package com.jaybionic.animation;
 
 import android.view.View;
 

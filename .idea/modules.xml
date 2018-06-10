@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Android.iml" filepath="$PROJECT_DIR$/Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BBAD-Android.iml" filepath="$PROJECT_DIR$/BBAD-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/jaycorp/jaycorp.iml" filepath="$PROJECT_DIR$/jaycorp/jaycorp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jaybionic/jaybionic.iml" filepath="$PROJECT_DIR$/jaybionic/jaybionic.iml" />
     </modules>
   </component>
 </project>

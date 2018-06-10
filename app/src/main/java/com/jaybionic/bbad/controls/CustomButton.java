@@ -1,4 +1,4 @@
-package com.jaycorp.bbad.controls;
+package com.jaybionic.bbad.controls;
 
 import android.content.Context;
 import android.graphics.Color;

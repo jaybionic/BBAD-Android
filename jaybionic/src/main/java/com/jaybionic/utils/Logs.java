@@ -1,4 +1,4 @@
-package com.jaycorp.utils;
+package com.jaybionic.utils;
 
 import android.util.Log;
 

@@ -1,4 +1,4 @@
-package com.jaycorp.bbad;
+package com.jaybionic.bbad;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,10 +15,10 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.jaycorp.animation.BBAD;
-import com.jaycorp.animation.Easing;
-import com.jaycorp.bbad.controls.CustomButton;
-import com.jaycorp.utils.Logs;
+import com.jaybionic.animation.BBAD;
+import com.jaybionic.animation.Easing;
+import com.jaybionic.bbad.controls.CustomButton;
+import com.jaybionic.utils.Logs;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

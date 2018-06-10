@@ -1,4 +1,4 @@
-package com.jaycorp.bbad;
+package com.jaybionic.bbad;
 
 import org.junit.Test;
 

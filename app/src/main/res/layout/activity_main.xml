@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:paddingTop="24dp"
     android:background="#373e3e"
-    tools:context="com.jaycorp.bbad.MainActivity">
+    tools:context="com.jaybionic.bbad.MainActivity">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -16,14 +16,14 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <com.jaycorp.bbad.controls.CustomButton
+            <com.jaybionic.bbad.controls.CustomButton
                 android:id="@+id/btn_to"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 style="@style/CustomButton"
                 android:text="to"/>
-            <com.jaycorp.bbad.controls.CustomButton
+            <com.jaybionic.bbad.controls.CustomButton
                 android:id="@+id/btn_fromto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
                 android:padding="10dp"
                 style="@style/CustomButton"
                 android:text="fromTo"/>
-            <com.jaycorp.bbad.controls.CustomButton
+            <com.jaybionic.bbad.controls.CustomButton
                 android:id="@+id/btn_allto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
                 android:padding="10dp"
                 style="@style/CustomButton"
                 android:text="allTo"/>
-            <com.jaycorp.bbad.controls.CustomButton
+            <com.jaybionic.bbad.controls.CustomButton
                 android:id="@+id/btn_staggerto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
                 android:padding="10dp"
                 style="@style/CustomButton"
                 android:text="staggerTo"/>
-            <com.jaycorp.bbad.controls.CustomButton
+            <com.jaybionic.bbad.controls.CustomButton
                 android:id="@+id/btn_staggerfromto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

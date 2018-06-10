@@ -1,4 +1,9 @@
-package com.jaycorp.animation;
+/*
+* Created by Jason Kisch
+* Copyright (c) 2018. All rights reserved.
+* Licensed under the GNU General Public License v3.0
+*/
+package com.jaybionic.animation;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -11,7 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Interpolator;
 
-import com.jaycorp.utils.Logs;
+import com.jaybionic.utils.Logs;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -27,7 +32,7 @@ import static android.view.View.LAYER_TYPE_HARDWARE;
  *
  * @author Jason Kisch (jckisch@gmail.com)
  * @version 2.0
- *
+ * @see <a href="">BBAD-Android Repo</a>
  */
 
 public class BBAD {
@@ -853,6 +858,11 @@ public class BBAD {
             case "rotation":
                 view.setTranslationY(value);
                 break;
+        }
+    }
+    public static void setPropMulti(List<View> list, String prop, float value) {
+        for(View view : list) {
+            setProp(view, prop, value);
         }
     }
 
