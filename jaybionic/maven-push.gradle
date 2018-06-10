@@ -1,9 +1,3 @@
-/*
- * Copyright 2018 Jason Kisch
- *
- * Licensed under the GNU General Public License v3.0
- */
-
 apply plugin: 'maven'
 apply plugin: 'signing'
 
@@ -33,7 +27,9 @@ afterEvaluate { project ->
     uploadArchives {
         repositories {
             mavenDeployer {
-                beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+                beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment)
+                    println "Ready to deploy with $NEXUS_USERNAME:$NEXUS_PASSWORD ..."
+                }
 
                 pom.groupId = GROUP
                 pom.artifactId = POM_ARTIFACT_ID
